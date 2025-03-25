@@ -1,0 +1,60 @@
+/* Basic styles for the portfolio */
+
+body {
+    background-color: blueviolet; /* Set a light background color */
+}
+
+img {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin: 20px 0; /* Add spacing above and below the image */
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold; /* Make links bold */
+}
+
+footer a {
+    color: #007bff; /* Set link color in footer */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: floralwhite;
+    text-decoration-color: whitesmoke;
+}
